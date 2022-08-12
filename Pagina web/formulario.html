@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estiloFormulario.css">
+    <link rel="icon" type="image/x-icon" href="/Imagenes/garra.jpg">
+    <script src="https://kit.fontawesome.com/b74d6ed8cb.js" crossorigin="anonymous"></script>
+    <title>Formulario</title>
+</head>
+<body>
+    <header>
+        <div class="posicionHeader" id="principal">
+            <img class="estiloLogo" src="/Imagenes/logoAnimales.jpg" alt="Logo página animales" width="250px" height="150px">
+            <h1 class="fontTitulo">Formulario</h1>  
+        </div>
+        <div>
+            <nav class="estiloNav">
+                <input type="checkbox" id="check">
+                <label for="" class="checkbtn">
+                    <i class="fa fa-bars"></i>
+                </label>
+                <ul>
+                    <li><a href="/Mi pagina web.html" class="navEnlace">Inicio</a></li>
+                    <li><a href="/animalesSalvajes.html" class="navEnlace">Animales Salvajes</a></li>
+                    <li><a href="" class="navEnlace">Animales Domesticos</a></li>
+                    <li><a href="" class="navEnlace">Animales de granja</a></li>  
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <div class="sizePrincipalFormulario">
+            <form action="">
+                <label for="name">Nombres:
+                    <input type="text" id="name" placeholder="nombres">
+                </label>
+                <label for="last">Apellidos:
+                    <input type="text" id="last" placeholder="apellidos">
+                </label>
+                <label for="phone">Telefono / Celular:
+                    <input type="number" id="phone" placeholder="telefono">
+                </label>
+                <label class="sizeLabel" for="sex">Sexo:<br>
+                    <input class="sizeInput" type="radio" id="sex" name="radioSex">Masculino
+                    <input class="sizeInput" type="radio" id="sex" name="radioSex">Femenino
+                </label>
+                <label class="sizeLabel" for="politic">Política de tratamiento de datos:<br>
+                    <input class="sizeInput" type="radio" id="politic" name="politic">Sí
+                    <input class="sizeInput" type="radio" id="politic" name="politic">No
+                </label>
+                <label class="sizeLabelObserva" for="observ">Observaciones:
+                    <input class="sizeObservacion" type="text" id="observ" placeholder="observaciones">
+                </label>
+                <div class="sizebuton">
+                    <button type="submit">Enviar</button>
+                    <button type="reset">Borrar</button>
+                </div>
+            </form>
+        </div>
+    </main>
+    <footer>
+        <div class="sizeFooter">
+            <p>Copyright&copy; 2022 Misión TIC-UTP</p>
+            <a href="#principal" class="botonFooter"><i class="fa fa-caret-up styleIcon"></i></a>
+        </div>
+    </footer>
+    
+</body>
+</html>

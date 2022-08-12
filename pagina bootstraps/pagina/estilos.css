@@ -1,0 +1,44 @@
+body{
+    background-color: rgba(0, 0, 0, 0.719);
+    color: white;
+}
+
+/* .caja{
+    background-color: black;
+    width: 180px;
+    height: 180px;
+    margin: 2em;
+}
+
+.caja-pildora{
+    background-color: black;
+    width: 580px;
+    height: 180px;
+    margin: 2em;
+} */
+
+.carousel-indicators [data-bs-target]{
+    background-color: aqua;
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+}
+
+/* .carousel-indicators [data-bs-target]{
+    background-color: black !important;
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+} */
+
+/* [class^="col"]:nth-child(odd){
+    background-color: aquamarine;
+}
+
+[class^="col"]:nth-child(even){
+    background-color:blue;
+} */
+
+/* .segundaFila{
+    margin-top: 1em;
+} */
